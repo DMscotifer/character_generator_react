@@ -18,7 +18,13 @@ class CharacterBox extends React.Component {
     // const countryIndex = event.target.value;
     // const country = this.state.countries[countryIndex];
     const characterName = document.querySelector('#char-name')
-    console.log("Submit Clicked", event, characterName.value);
+    const characterRace = document.querySelector('#race')
+    const characterClass = document.querySelector('#character-class')
+    const characterAlignment = document.querySelector('#alignment')
+    console.log(characterName.value);
+    console.log(characterRace.value);
+    console.log(characterClass.value);
+    console.log(characterAlignment.value);
     // this.setState({selectedCountry: country})
   }
 

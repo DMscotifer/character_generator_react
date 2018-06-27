@@ -9,7 +9,7 @@ const CharacterBoxForm = (props) => {
         <div className="tooltip">Race:
           <span className="tooltiptext">Tooltip text</span>
         </div>
-        <select name="race" id="">
+        <select name="race" id="race">
           <option value="dwarf">Dwarf</option>
           <option value="elf">Elf</option>
           <option value="gnome">Gnome</option>
@@ -20,7 +20,7 @@ const CharacterBoxForm = (props) => {
       </div>
 
       <div className="character-class">
-        Class: <select name="char-class" id="">
+        Class: <select name="char-class" id="character-class">
           <option value="assassin">Assassin</option>
           <option value="cleric">Cleric</option>
           <option value="druid">Druid</option>
@@ -34,28 +34,28 @@ const CharacterBoxForm = (props) => {
       </div>
 
       <div className="char-level">
-        Level: <input type="number" defaultValue="1" max="20"/>
+        Level: <input type="number" defaultValue="1" max="20" id="level"/>
       </div>
 
       <div className="attributes">
         Attributes:
 
-        <div className="">Strength <input type="number" defaultValue="10" min="0"/></div>
+        <div className="" id="str">Strength <input type="number" defaultValue="10" min="0"/></div>
 
-        <div className="">Dexterity <input type="number" defaultValue="10" min="0"/></div>
+        <div className="" id="dex">Dexterity <input type="number" defaultValue="10" min="0"/></div>
 
-        <div className="">Constitution <input type="number" defaultValue="10" min="0"/></div>
+        <div className="" id="con">Constitution <input type="number" defaultValue="10" min="0"/></div>
 
-        <div className="">Intelligence <input type="number" defaultValue="10" min="0"/></div>
+        <div className="" id="int">Intelligence <input type="number" defaultValue="10" min="0"/></div>
 
-        <div className="">Wisdom <input type="number" defaultValue="10" min="0"/></div>
+        <div className="" id="wis">Wisdom <input type="number" defaultValue="10" min="0"/></div>
 
-        <div className="">Charisma <input type="number" defaultValue="10" min="0"/></div>
+        <div className="" id="cha">Charisma <input type="number" defaultValue="10" min="0"/></div>
 
       </div>
 
       <div className="char-alignment">
-        Alignment: <select name="alignment" id="">
+        Alignment: <select name="alignment" id="alignment">
           <option value="lg">Lawful Good</option>
           <option value="ng">Neutral Good</option>
           <option value="cg">Chaotic Good</option>
