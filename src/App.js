@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import CharacterBox from './containers/CharacterBox';
+import DiceRoller from './containers/DiceRoller';
 
 class App extends Component {
   render() {
@@ -13,6 +14,9 @@ class App extends Component {
         </p>
         <div className="character-sheet">
           <CharacterBox/>
+        </div>
+        <div className="dice-roller">
+          <DiceRoller/>
         </div>
       </div>
     );
