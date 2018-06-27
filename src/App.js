@@ -10,8 +10,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Old School RPG Character Creator</h1>
         </header>
-        <p className="App-intro">
-        </p>
+        <h2 className="App-intro">Generate a New Character</h2>
         <div className="character-sheet">
           <CharacterBox/>
         </div>

@@ -4,8 +4,8 @@ class DiceRoller extends React.Component {
 
   render() {
     return (
-      <div className="button">
-        <button>Roll Dice</button>
+      <div>
+        <h2>Roll Results:</h2>
       </div>
     )
   }

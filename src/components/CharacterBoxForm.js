@@ -39,19 +39,12 @@ const CharacterBoxForm = (props) => {
 
       <div className="attributes">
         Attributes:
-
         <div className="" id="str">Strength <input type="number" defaultValue="10" min="0"/></div>
-
         <div className="" id="dex">Dexterity <input type="number" defaultValue="10" min="0"/></div>
-
         <div className="" id="con">Constitution <input type="number" defaultValue="10" min="0"/></div>
-
         <div className="" id="int">Intelligence <input type="number" defaultValue="10" min="0"/></div>
-
         <div className="" id="wis">Wisdom <input type="number" defaultValue="10" min="0"/></div>
-
         <div className="" id="cha">Charisma <input type="number" defaultValue="10" min="0"/></div>
-
       </div>
 
       <div className="char-alignment">
