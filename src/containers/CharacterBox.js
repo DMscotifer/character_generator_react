@@ -8,6 +8,7 @@ class CharacterBox extends React.Component {
       characters: [],
       name: null
     }
+    this.handleSubmitClick = this.handleSubmitClick.bind(this);
     // this.handleCountrySelect = this.handleCountrySelect.bind(this);
   }
   componentDidMount() {
@@ -26,6 +27,7 @@ class CharacterBox extends React.Component {
     console.log(characterClass.value);
     console.log(characterAlignment.value);
     // this.setState({selectedCountry: country})
+    this.setState({name: characterName.value})
   }
 
   render() {
